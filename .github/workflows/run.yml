@@ -1,6 +1,7 @@
 name: DaKa
 
 on:
+  workflow_dispatch:
   push:
     branches: 
       - master
