@@ -8,8 +8,7 @@ on:
   watch:
     types: started
   schedule:
-    - cron: 0 */12 * * *
-
+    - cron: "30 21 * * *"
 jobs:
   DaKa:
     runs-on: ubuntu-latest
